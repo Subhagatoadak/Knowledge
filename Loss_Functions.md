@@ -867,7 +867,7 @@ Loss functions tailored for specific data types or tasks.
 
 ---
 
-**General Advice:**
+**General Suggestions:**
 
 * **Match Assumptions:** Choose a loss function whose underlying assumptions match your data distribution (e.g., Gaussian noise -> MSE, Counts -> Poisson) and task objective (e.g., Overlap -> Dice/IoU, Ranking -> Margin/Listwise).
 * **Consider Evaluation Metric:** If possible, use a loss function that closely relates to your final evaluation metric (e.g., optimize IoU Loss if evaluation is based on IoU).
